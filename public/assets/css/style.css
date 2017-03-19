@@ -1,0 +1,112 @@
+
+body {
+    background-color: #83c999;
+}
+
+
+
+#top-menu {
+    float:left;
+    display: inline-block;
+    padding: 20px;
+    width: 98%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font
+    
+    
+    
+}
+
+.active {
+  color: white;
+    
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding: 0px 10px;
+    margin: 0 10px;
+    color: aliceblue;
+    
+    
+}
+
+#navbar2 {
+    display: none;
+    
+}
+
+.navWrapper {
+    
+}
+
+a {
+    color:white;
+    
+    text-decoration: none;
+    
+}
+
+#banner {
+    height: 20px;
+    
+    
+}
+
+#tentaclesHeader2 {
+    
+    
+    
+}
+
+.bannerText {
+text-align: center;
+    color: white;
+    
+    
+
+}
+
+#main-line {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size:120px;
+    line-height: 0px;
+    
+}
+
+.bannerTextSmall {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px
+}
+
+.tagline {
+    
+    position: relative;
+    top:-450px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #6caa8d;
+    width: 100%;
+    border:none;
+    
+}
+
+strong {
+    
+}
+
+#about-me-text {
+    color: black;
+    
+}
+
+#next-line-tag {
+    line-height: 0px;
+    
+}
