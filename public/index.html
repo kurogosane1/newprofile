@@ -4,264 +4,238 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syed S Khurshid</title>
-    <meta name='description' content='the webdesign portfolio of Syed S Khurshid and designes and portfolio of classwork projects etc'>
+
+    <title>Syed Khurshid</title>
+    <!--    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chonburi|Emblema+One|Lalezar|Meddon|Mr+Bedfort" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ceviche+One|Fontdiner+Swanky|Luckiest+Guy|Ruslan+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Roboto|Source+Sans+Pro" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.js" integrity="sha256-tA8y0XqiwnpwmOIl3SGAcFl2RvxHjA8qp0+1uCGmRmg=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href='assets/css/animation.css'>
-    <link rel="stylesheet" href="#">
-
+    <link rel="stylesheet" href="assets/js/animation.js">
 </head>
 
 <body>
-    <a id='home'></a>
-    <header class='nav-down'>
-        <div class='navWrapper'>
-            <div id="navbar1">
-                <ul id='top-menu'>
-                    <li class='active'>
-                        <a class='menu-fonts' href="index.html">HOME</a>
-                    </li>
-                    <li class='active'>
-                        <a class='menu-fonts' href="index.html">ABOUT</a>
-                    </li>
-                    <li class='active'>
-                        <a class='menu-fonts' href="index.html">PROJECTS</a>
-                    </li>
-                    <li clas='active'>
-                        <a class='menu-fonts' href="index.html">CONTACT</a>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--      <a class="navbar-brand" href="#">Brand</a>-->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#home" id='slide-section'>Home <span class="sr-only">(current)</span></a></li>
+                    <!--                    <li class="active"><a href="#home" id='slide-section'>Home <span class="sr-only">(current)</span></a></li>-->
+                    <li><a href="#me-heading" id='slide-section' class='slide-section' data-scrollTo='me-heading'>About Me</a></li>
+                    <li><a href="#folio-header" id='slide-section' class='slide-section'data-scrollTo= 'folio-header'>Profile</a></li>
+                    <li><a href="#fourth-container" id='slide-section' class='slide-section' data-scrollTo='fourth-container'>Contact Me</a></li>
+                    <li class="dropdown">
+                        <!--                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class='slide-section'>About Me</a></li>
+                            <li><a href="#" class='slide-section'>Profile</a></li>
+                            <li><a href="#" class='slide-section'>Contact Me</a></li>
+                            <!--
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+-->
+                        </ul>
                     </li>
                 </ul>
-            </div>
-            <div id='navbar2'>
-                <div class='accordionButton'>MENU</div>
-                <div class='accordionContent' style='display: none;'>
-                    <a href="index.html">HOME</a>
-                    <br>
-                    <a href="index.html">ABOUT</a>
-                    <br>
-                    <a href="index.html">PROJECTS</a>
-                    <br>
-                    <a href="index.html">CONTACT</a>
-                    <br>
-                </div>
-                <div class='socialMedia'>
-                    <a href="#">
-                        <div></div>
-                    </a>
-                    <a href="#">
-                        <div></div>
-                    </a>
-                    <a href="#">
-                        <div></div>
-                    </a>
-                    <a href="#">
-                        <div></div>
-                    </a>
 
-                </div>
             </div>
-
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-    </header>
-    <div class='bannerBkg'>
-        <div class=bannerWrapper>
-            <div id='tentaclesHeader2' class='fade-in'>
-                <!--               this is where the animation image would show up-->
-                <img id='banner' src="" alt="">
-            </div>
+    <div class='container-fluid'>
+
+        <div id='top-section' class='container'>
+
             <div class='bannerText'>
-                <p id='main-line'><strong>stand</strong></p>
-                <p id='main-line'><strong>up</strong></p>
-                <div class='bannerTextSmall'><strong>in a sea of ordinary, make sure your website is set apart from the competition</strong>
+                <p id='main-line'><strong>I'M A</strong></p>
+                <p id='main-line'><strong>FULL-STACK DEVELOPER</strong></p>
+                <br>
+                <br>
+                <br>
+
+                <div class='bannerTextSmall'><strong>I love to make responsive and functioning website. I believe that art can also be combined in designing and functioning a website. Welcome to my site!</strong>
                 </div>
 
             </div>
-            <div class='bannerRight'>
-                <div id='demo' style='margin-top: 3px; margin-left: 3px; width: 456px; height: 580px; opacity: 0;' class=lazy-line>
-                    <svg>
-<!--                        this is where the svg image shall go-->
-                    </svg>
-                </div>
-                <div class='space'>
 
-                </div>
+            <div class='skills'>
+                <h3 class='skills-title'>Skills</h3>
+                <ul class='skills-main'>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>JQuery</li>
+                    <li>MangoDB</li>
+                    <li>Sequelize</li>
+                    <li>Git</li>
+                    <li>HandleBars</li>
+                    <li>React</li>
+                    <li>MySQL</li>
+                    <li>Node</li>
+                    <li>Firebase</li>
+                    <li>Heroku</li>
+                    <li>Excel</li>
+                    <li>Lawson</li>
+                    <li>Photoshop</li>
+                    <li>Adobe Designer</li>
+                    <li>Sharepoint</li>
+                    <li>Paper.js</li>
+
+                </ul>
+
             </div>
+
+
+
         </div>
+
     </div>
-    <div class='tagline'>
-        <div class='taglineWrapper'>
-            <p>Hi, My name is Syed. I'm a Full Stack Developer and I create 
-            <p id='next-line-tag'><strong id='about-me-text'>functional</strong> and <strong id='about-me-text'>responsive</strong> websites</p>
+    <div id='second' sectionclass='container-fluid'>
+        <div id='second-container' class='container'>
+            <h3 id='me-heading'> About me</h3>
+
+            <div class='row'>
+                <div id='meimg' class='col-sm-6'>
+                    <img id='my-image' src="./assets/images/Me.png" alt="">
+                </div>
+                <div id='bio' class='col-sm-6'>
+                    <p id='about-bio'>I have a degree in Accounting where I worked as a Accountant for almost 4 years. However, over the years working as an Accountant I learned that simply knowing how to use excel itself would not do it. I would be learning how to code and applying them in <strong>Excel</strong> of all places made me discover my interest in coding. I had then and there decided that I would want to make a change and head towards coding.</p>
+                    <p id='about-bio'>I had then discovered UT Austin Bootcamp where I have worked to become a full stack developer. Having both sides and applying it now to my day to day tasks has made my work interesting. Now that I have discovered my potential, I see all the possibilities of things I never dreamed of happening. I look forward to the opportunities that may arrive.</p>
+                    <p id='about-bio'>I have learned to lead, manage, and work in groups. Handling pressure is what I treasure the most from my previous expriences</p>
+
+                </div>
+
+            </div>
+
         </div>
+
+        <!--        this is where the portfile pictures would come in-->
+
+
+        <div id='third-container' class='container'>
+            <div>
+                <div class='row'>
+                    <div class='col-sm-12'>
+                        <div id='folio-header'>
+                            <h3 id='folio-head'>Portfolio</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-sm-6'>
+                        <div id='portfolio-items'>
+                            <a href="https://limitless-cove-86218.herokuapp.com/"><img id='eat' src='assets/images/burger.png'></a>
+                            <a href="https://agile-coast-87413.herokuapp.com/"><img id='newsScraper' src='assets/images/newsScrapper.PNG'></a>
+                            <a href="https://pure-gorge-43433.herokuapp.com/"><img id='trivia' src='assets/images/Trivia.PNG'></a>
+                            <a href="https://stark-ravine-93008.herokuapp.com/"><img id='hack' src='assets/images/HackCity.PNG'></a>
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class='row'>
+                <div id='more' class='col-sm-12'>
+                    <a href="https://github.com/kurogosane1">
+                        <button class='class="btn btn-primary-outline' type='button' id='more-to'>More</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
-    <div class='aboutPic'>
-        <div class='aboutOctupus'>
-            <!--           this is where you will place the octopus img to hide the main background-->
-            <img id='me' src="assets/images/Me.png" alt="">
-        </div>
-        <div class='aboutText'>
-            <h1 id='about-head'>About Me</h1>
-            <p id='about-bio'>I have a degree in Accounting where I worked as a Accountant for almost 4 years. However, over the years working as an Accountant I learned that simply knowing how to use excel itself would not do it. I would  learning how to code and applying them in <strong>Excel</strong> of all places made me discover my interest in coding. I had then and there decided that I would want to make a change and head towards coding.</p>
-            <p id='about-bio'>I had then discovered UT Austin Bootcamp where I have worked to become a full stack developer. Having both sides and applying it now to my day to day tasks has made my work interesting. However, to fully utilize my potential I plan on working coding field and grow in it.</p>
-            <p id='about-bio'>I have learned to lead, manage, and always work in groups. Handling pressure is what I treasure the most from my previous expriences</p>
-        </div>
-        <div class='space'>
+    <div id='fourth' sectionclass='container-fluid'>
+        <div id='fourth-container' class='container'>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <h3 id='contact-header'>Contact</h3>
+                    <br>
+                    <p id='contact-info'> Feel free to reach me out. Please do allow me 2 business days to respond </p>
+                    <ul class='social-list'>
+                        <li>
+                            <a class='social-icons' href="https://github.com/kurogosane1"><img id='git-icon' src="assets/images/github-icon%202.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a class='social-icons' href="https://www.linkedin.com/in/syed-khurshid/"><img id='link-icon' src="assets/images/Linkedin-icon.png" alt=""></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <div class='contact-me' id='contact'>
+
+                        <form action="">
+                            <div class='input-section'>
+                                <ul>
+                                    <li>
+                                        <input type="text" id='fname' placeholder='First Name'>
+                                    </li>
+                                    <li>
+                                        <input type="text" id="lname" placeholder='Last Name'>
+                                    </li>
+                                    <li>
+                                        <input type='text' id='email' placeholder='email'>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div id='input-section'>
+                                <button>Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-sm-12'>
+                    <footer>
+                        <h3>@Copyright of Syed Khurshid</h3>
+                    </footer>
+
+                </div>
+            </div>
+
 
         </div>
+
     </div>
-<!--    the workgroup section is where the general images of the projects would be shown. However, we also want the user to be able to access the links around the padding area and therefore a workgroup 2 would be greated for that-->
-    <div class='workGroup1'>
-            <div id= 'heading'>
-               <h3 id='about-head'>Profile</h3>
-                
-            </div>
-<!--       this is where the projects would be shown-->
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'Rant Resources"
-            <div class='boxesInfo' style=color#d76713> Group Project/ Web Development
-            </div>
 
-        </div>
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'Rant Resources"
-            <div class='boxesInfo' style=color#d76713> Group Project/ Web Development
-            </div>
 
-        </div>
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'SequelizeDatBurger"
-            <div class='boxesInfo' style=color#d76713> Utlizing Database
-            </div>
 
-        </div>
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'Hangman"
-            <div class='boxesInfo' style=color#d76713> Game Development
-            </div>
-
-        </div>
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'Trivia"
-            <div class='boxesInfo' style=color#d76713> Game and Funcational Development
-            </div>
-
-        </div>
-        <div class='inline cboxElement' href='#'>
-            <img src="#" alt="">
-            <br>
-            'HackCity"
-            <div class='boxesInfo' style=color#d76713> Group Project/ Web Development and Sequelize Utilization
-            </div>
-
-        </div>
-    </div>
-    <div class='workGroup2'>
-        <a href="#">
-            <div class='yellowBox'>
-               'RENT RESOURCES'
-               <img src="#" alt="">
-               <br>
-               <div class='boxesInfo'>
-                   
-               </div>
-                
-            </div>
-        </a>
-        <a href="#">
-            <div class='yellowBox'>
-               'RENT RESOURCES'
-               <img src="#" alt="">
-               <br>
-               <div class='boxesInfo'>
-                   
-               </div>
-                
-            </div>
-        </a>
-        <a href="#">
-            <div class='yellowBox'>
-               'RENT RESOURCES'
-               <img src="#" alt="">
-               <br>
-               <div class='boxesInfo'>
-                   
-               </div>
-                
-            </div>
-        </a>
-        <a href="#">
-            <div class='yellowBox'>
-               'RENT RESOURCES'
-               <img src="#" alt="">
-               <br>
-               <div class='boxesInfo'>
-                   
-               </div>
-                
-            </div>
-        </a>
-        <a href="#">
-            <div class='yellowBox'>
-               'RENT RESOURCES'
-               <img src="#" alt="">
-               <br>
-               <div class='boxesInfo'>
-                   
-               </div>
-                
-            </div>
-        </a>
-    </div>
-    <div class='contactBkg'>
-        <div class='contactWrapper'>
-            <h2 id='about-head'>get in touch</h2>
-            <p id='about-bio'>Please fill out the contact information below. Allow a couple of business fays for me to respond</p>
-            <br>
-            <br>
-            <form method='post' action="contact.js" name='form2' enctype="multipart/form-data">
-                <div class='contactCol1'>
-                    <input name='realname' tpye='text' id='name' placeholder="Name">
-                </div>
-                <div class='contactCol2'>
-                    <input name='email' tpye='text' id='email' placeholder="Email">
-                </div>
-                <div class='contactCol3'>
-                    <input name='website' tpye='text' id='website' placeholder="Website">
-                </div>
-                <div class='contactCol1'>
-                    <input name='realname' tpye='text' id='name' placeholder="Name">
-                </div>
-                <div class='contactCol1'>
-                    <input name='realname' tpye='text' id='name' placeholder="Name">
-                </div>
-                <div class='space'>
-                    
-                </div>
-                <div class= 'comments'>
-                    <textarea name="textarea" id="comments" style="height: 100px;" placeholder='Tell me anything that you would like to contact me about' cols="30" rows="10">
-                        
-                    </textarea>
-                </div>
-                <div class='submit'>
-                    <input type="submit" name='Submit' class=submitBtn value='send'>
-                </div>
-            </form>
-        </div>
-    </div>
-    
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     Include all compiled plugins (below), or include individual files as needed 
+    <script src="assets/js/bootstrap-3.3.7-dist/js/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+-->
 </body>
 
 </html>
