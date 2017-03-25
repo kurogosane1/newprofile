@@ -1,0 +1,671 @@
+body {
+    background: url(../images/notebook-natural-laptop-macbook-162605.jpeg);
+    background-size: 100% 900px;
+    background-repeat: no-repeat;
+    background-blend-mode: difference;
+}
+
+.nabar-transparent: hover {
+    background: red;
+}
+
+#slide-section {
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.active {
+    border-style: none;
+}
+
+.icon-bar {
+    background-color: #ffffff;
+}
+
+
+/*This will change the color of hovering over the navbar*/
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: red;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+}
+
+.navbar-toggle {
+    color: red;
+}
+
+.navbar-default {
+    font-family: 'Roboto', sans-serif;
+    color: #ff0000;
+}
+
+.icon-bar {
+    color: red;
+}
+
+.navbar-header {
+    background: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+}
+
+
+/*
+.navbar-header: hover{
+    background: yellow;
+}
+*/
+
+#bs-example-navbar-collapse-1 {
+    background: transparent;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+}
+
+.bannerText {
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.22));
+}
+
+.bannerTextSmall {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-line {
+    /*    font-family: 'Fontdiner Swanky', cursive;*/
+    font-family: 'Chonburi', cursive;
+    font-size: 90px;
+}
+
+#top-section {
+    position: relative;
+    top: 200px;
+    box-shadow: 0 0 90px #000000;
+    background-blend-mode: multiply;
+    background: linear-gradient(rgba(255, 255, 255, 0), black);
+    background-blend-mode:
+}
+
+.skills {
+    color: white;
+    /*    font-family: cursive;*/
+    font-size: 18px;
+    background: black;
+    top: 0px;
+}
+
+.skills {
+    background: transparent;
+    font-size: 18px;
+    /*    font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-blend-mode: color-burn;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.09), black);
+}
+
+.skills-title {
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Chonburi', cursive;
+}
+
+.skills-main li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    float: center;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+#second {
+    background: linear-gradient(rgba(0, 0, 0, 0.43), black);
+    width: 100%;
+    height: 1500px;
+    background-color: #837a7b;
+}
+
+#second-container {
+    background-blend-mode: color;
+    background-color: #2b2a30;
+    height: 800px;
+    box-shadow: 0 0 90px #000000;
+}
+
+#me-heading {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 200px;
+    font-size: 70px;
+    font-family: 'Chonburi', cursive;
+}
+
+#bio {
+    position: relative;
+    top: 230px;
+    height: 200px;
+    width: 50%;
+    right: 20px;
+    font-size: 26px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about-bio {
+    color: white;
+    font-size: 18px;
+}
+
+#my-image {
+    position: relative;
+    top: 240px;
+    left: 100px;
+    align-content: center;
+}
+
+#eat {
+    /*    padding: 100px 200px;*/
+    width: 300px;
+    height: 200px;
+    background: grey;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    border-style: hidden;
+    border-color: transparent;
+}
+
+#newsScraper {
+    width: 300px;
+    height: 200px;
+    background: grey;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 105%;
+    margin-top: 20px;
+    border-style: hidden;
+    border-color: transparent;
+}
+
+#third-container {
+    position: relative;
+    height: 700px;
+    background-color: #b5b5b5;
+    margin-bottom: 2px;
+    z-index: 100px;
+}
+
+#folio-head {
+    color: white;
+    font-size: 70px;
+    font-family: 'Chonburi', cursive;
+    text-align: center;
+}
+
+#trivia {
+    /*    the image is located on the left side*/
+    width: 300px;
+    height: 200px;
+    background: grey;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 50%;
+    top: 215px;
+    margin-top: 10px;
+    border-style: hidden;
+    border-color: transparent;
+}
+
+#hack {
+    width: 300px;
+    height: 200px;
+    background: grey;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 105%;
+    top: 215px;
+    margin-top: 10px;
+    border-style: hidden;
+    border-color: transparent;
+}
+
+#fourth {
+    background-color: #221c20;
+    background: linear-gradient(rgb(34, 28, 32), #221c20);
+    background-blend-mode: difference;
+    margin-top: 1px;
+    height: 890px;
+    box-shadow: 0 0 90px #000000;
+}
+
+#more-to {
+    background-color: white;
+    font-family: 'Chonburi', cursive;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    border-style: none;
+    position: relative;
+    top: 480px;
+    margin: auto 47%;
+}
+
+#contact-header {
+    margin-top: 20px;
+    font-size: 70px;
+    color: white;
+    font-family: 'Chonburi', cursive;
+    align-content: center;
+    text-align: center
+}
+
+.social-list {
+    padding: 10px;
+    list-style: none;
+    display: block;
+    align-content: center;
+    margin: 2px auto;
+}
+
+.social-icons {
+    align-content: center;
+    float: left;
+    position: relative;
+    left: 44.5%;
+}
+
+#git-icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 54.5px;
+    margin-bottom: 30px;
+}
+
+#link-icon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    margin-bottom: 30px;
+}
+
+#contact {
+    height: 400px;
+}
+
+#contact h2 {
+    color: #fafafa;
+    font-family: 'Shrikhand', cursive;
+    font-size: 40px;
+}
+
+#contact li {
+    text-decoration: none;
+    list-style: none;
+    margin: 10px 10px;
+}
+
+#contact input {
+    background-color: #362e2e;
+    margin: 10px auto;
+    border-radius: 5px;
+    height: 30px;
+    width: 50%;
+    position: relative;
+    left: 23%;
+}
+
+#contact button {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+    padding: 20px 50px;
+    position: relative;
+    left: 44%;
+    font-family: 'Chonburi', cursive;
+}
+
+#contact:placeholder {
+    font-family: 'Chonburi', cursive;
+    color: white;
+}
+
+#contact-info {
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fafafa;
+}
+
+::placeholder {
+    /* Firefox 19+ */
+    color: #ffffff;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #ffffff;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #ffffff;
+}
+
+@media (max-width: 960px) {
+    #main-line {
+        /*    font-family: 'Fontdiner Swanky', cursive;*/
+        font-family: 'Chonburi', cursive;
+        font-size: 28px;
+    }
+    .bannerTextSmall {
+        font-size: 12px;
+        font-family: cursive;
+        text-align: center;
+    }
+    body {
+        background-size: 100% 450px;
+        background-repeat: no-repeat;
+        background-blend-mode: difference;
+    }
+    .skills-title {
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Chonburi', cursive;
+    }
+    #top-section {
+        top: 10px;
+    }
+    .skills {
+        background: transparent;
+        font-size: 12px;
+        /*    font-family: 'Roboto', sans-serif;*/
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    #second {
+        background: linear-gradient(rgba(0, 0, 0, 0.43), black);
+        width: 100%;
+        height: 1500px;
+        background-color: #837a7b;
+    }
+    #second-container {
+        background-blend-mode: color;
+        background-color: #2b2a30;
+        height: 800px;
+        width: 590px;
+        box-shadow: 0 0 90px #000000;
+    }
+    #me-heading {
+        top: 10px;
+        font-size: 28px;
+        font-family: 'Chonburi', cursive;
+    }
+    #bio {
+        position: relative;
+        top: 230px;
+        height: 200px;
+        width: 50%;
+        right: 20px;
+        font-size: 26px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    #about-bio {
+        color: white;
+        font-size: 16px;
+        position: relative;
+        top: -150px;
+        left: 50px;
+        text-align: center;
+        width: 500px;
+    }
+    #my-image {
+        position: relative;
+        top: 40px;
+        left: 190px;
+        align-content: center;
+    }
+    #third-container {
+        position: relative;
+        height: 700px;
+        background-color: #b5b5b5;
+        margin-bottom: 2px;
+        z-index: 100px;
+    }
+    #folio-head {
+        font-size: 28px;
+        font-family: 'Chonburi', cursive;
+    }
+    #trivia {
+        /*    the image is located on the left side*/
+        width: 300px;
+        height: 200px;
+        left: 0;
+        margin: 10px;
+    }
+    #hack {
+        width: 300px;
+        height: 200px;
+        left: 315.5px;
+        margin: 10px;
+    }
+    #eat {
+        /*    padding: 100px 200px;*/
+        width: 300px;
+        height: 200px;
+        left: 0;
+        margin: 10px;
+    }
+    #newsScraper {
+        width: 300px;
+        height: 200px;
+        left: 315.5px;
+        margin: 10px;
+    }
+    #more-to {
+        font-size: 14px;
+        right: 35px
+    }
+    #contact-header {
+        font-size: 28px;
+    }
+    .social-icons {
+        align-content: center;
+        float: left;
+        position: relative;
+        left: 44.5%;
+    }
+    #git-icon {
+        left: -40px;
+    }
+    #link-icon {
+        left: -40px;
+    }
+    #contact {
+        height: 400px;
+    }
+    #input-section {
+        position: relative;
+        right: 45px;
+        top: 40px;
+    }
+    #contact:placeholder {
+        font-family: 'Chonburi', cursive;
+        color: white;
+    }
+    #contact-info {
+        font-size: 14px;
+    }
+    #fourth {
+        height: auto;
+    }
+    footer h3 {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #main-line {
+        /*    font-family: 'Fontdiner Swanky', cursive;*/
+        font-family: 'Chonburi', cursive;
+        font-size: 18px;
+    }
+    .bannerTextSmall {
+        font-size: 10px;
+        font-family: cursive;
+        text-align: center;
+    }
+    body {
+        background-size: 100% 300px;
+        background-repeat: no-repeat;
+        background-blend-mode: difference;
+    }
+    .skills-title {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Chonburi', cursive;
+    }
+    #top-section {
+        top: 10px;
+    }
+    .skills {
+        
+        font-size: 8px;
+        
+        /*    font-family: 'Roboto', sans-serif;*/
+        
+    }
+    .skills li{
+        left: 10px;
+    }
+    #second {
+        background: linear-gradient(rgba(0, 0, 0, 0.43), black);
+        width: 100%;
+        height: auto;
+        background-color: #837a7b;
+    }
+    #second-container {
+        top: -10px;
+        height: 500px;
+        width: auto;
+        
+    }
+    #me-heading {
+       
+        font-size: 18px;
+        font-family: 'Chonburi', cursive;
+    }
+    #bio {
+        
+        top: 230px;
+        height: auto;
+        width: 300px;
+        margin: 0 auto;
+        
+        
+    }
+    #about-bio {
+        color: white;
+        font-size: 12px;
+        margin-top: -10px;
+        left:10px;
+       
+        width: 300px;
+        margin-left: 2px;
+        margin-right: 15px;
+    }
+    #my-image {
+        display: none;
+    }
+    
+    #folio-head {
+        font-size: 18px;
+        font-family: 'Chonburi', cursive;
+    }
+    #trivia {
+        /*    the image is located on the left side*/
+        float: left;
+        margin: 0 auto;
+        padding: 5px
+    }
+    #hack {
+        display: none;
+    }
+    #eat {
+        /*    padding: 100px 200px;*/
+        float: left;
+        margin: 0 auto;
+        padding: 5px;
+        
+    }
+    #newsScraper {
+        display: none;
+    }
+    #more-to {
+        font-size: 14px;
+        right: 35px
+    }
+    #contact-header {
+        font-size: 28px;
+    }
+    .social-icons {
+        align-content: center;
+        float: left;
+        position: relative;
+        left: 44.5%;
+    }
+    #git-icon {
+        left: -40px;
+    }
+    #link-icon {
+        left: -40px;
+    }
+    #contact {
+        height: 400px;
+    }
+    #input-section {
+        position: relative;
+        right: 45px;
+        top: 40px;
+    }
+    #contact:placeholder {
+        font-family: 'Chonburi', cursive;
+        color: white;
+    }
+    #contact-info {
+        font-size: 14px;
+    }
+    #fourth {
+        height: auto;
+    }
+    footer h3 {
+        font-size: 12px;
+    }
+}
