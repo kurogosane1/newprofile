@@ -1,2 +1,6 @@
-# newprofile
-a updated version of the profile of me and the final version that would be used to work
+This is the updated version of my personal website. 
+You can feel free to contact me or reach me out here. 
+
+Thank you
+
+
