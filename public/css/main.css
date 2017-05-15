@@ -7,7 +7,10 @@ body {
     font-size: 16px;
 }
 
-html {}
+
+.icon-bar {
+    background-color: #e6dfd9 !important;
+}
 
 .nav .active { background:red; }
 
@@ -123,6 +126,7 @@ header {
 
 .somehow {
     border: solid blue;
+    margin: 10px;
 }
 
 .thumbnail {
@@ -412,10 +416,121 @@ footer h5 {
     padding: 0;
 }
 
+/*max width screen*/
+@media screen and (max-width: 640px){
+    html{
+        width: 640px;
+    }
+
+    header{
+        
+        background-size: 100% 100%;
+    }
+    #main-intro h3 {
+    margin: 10px 20px 10px 30px;
+   
+    }
+
+    #container-2{
+        
+        height: 960px;
+    }
+    #somehow{
+        border: solid red;
+    }
+    .thumbnail {
+        padding: 10px;
+        
+        height: 300px;
+        width: 200px;
+        top: -20px;
+        margin: 50px;
+        
+        
+    }
+    .thumbnail img {
+        height: auto;
+    }
+    .caption h2{
+        font-size: 140%;
+    }
+
+    #app-img{
+        width: 100%;
+        margin-top: 0px;
+        
+    }
+    #app-h2{
+        position: absolute;
+        top: -25px;
+    }
+    #front-end-side{
+    right: 10px;
+    }
+    #back-end-side{
+    top: 300px;
+    }
+    #app-end-side{
+     right: 10px;
+     top: 300px;
+    }
+    #container-3{
+        height: 960px;
+        
+    }
+    #about-bio{
+        font-size: 110%;
+        
+    }   
+   #container-4{
+       height: 960px;
+
+   }
+   #portfolio-section{
+       
+       padding-left: 60px;
+       
+   }
+
+   #aftercircle{
+    bottom: 50px;
+    margin-bottom: 10px;
+        
+   }
+   .imageport{
+       width: 230px;
+   }
+   #contact-heading{
+       margin-top: 20px;
+   }
+   #labeler{
+    text-align: center;
+    margin-left: 250px;
+    
+   }
+   #message{
+    width: 540px;
+    margin: auto 10.5px auto 33.5px;
+   }
+   #exampleInputEmail1{
+       width: 540px;
+       margin: auto 10.5px auto 33.5px;
+   }
+   #message-label{
+    margin-left: 230px;
+   }
+   #submitbtn {
+    width: 150px;
+    height: 50px;
+    margin-left: 37%;
+    font-size: 150%;
+    
+}
+}
 
 @media screen and (max-device-width: 768px) {
     html {
-        border: dashed green;
+       
         overflow: hidden;
         width: 768px;
     }
