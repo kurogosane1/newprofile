@@ -1,0 +1,22 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "My New Profile",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Syed Saad Khurshid",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.1.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fs": "0.0.1-security",
+    "nodemailer": "^4.0.1"
+  },
+  "engines": {
+      "node": "7.4.0"
+  }
+}
