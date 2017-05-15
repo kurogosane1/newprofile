@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-
+var PORT = process.env.PORT || 3000;
 var fs = require('fs');
 var path =require('path');
 var bodyParser = require("body-parser");
@@ -60,6 +60,6 @@ let transporter = nodemailer.createTransport({
 });
 
 // Listen on port 3000
-app.listen(3000, function() {
+app.listen(PORT, function() {
   console.log("App running on port 3000!");
 });
