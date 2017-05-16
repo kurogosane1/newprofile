@@ -736,7 +736,7 @@ footer h5 {
 @media (max-width: 320px) {
     html {
         width: 320px;
-        border: dashed green;
+        
         /*         overflow: hidden; */
     }
     body {
@@ -875,5 +875,20 @@ footer h5 {
     }
 }
 
+/*iPhone7 plus version vertical
+*/
+@media only screen and (max-width: 360px){
 
-/* Portrait and Landscape */
+    html{
+        width: 360px
+    }
+    #container-1 h1{
+        font-size: 240%;
+    }
+    #container-1 h3{
+        font-size: 190%;
+    }
+
+
+}
+
