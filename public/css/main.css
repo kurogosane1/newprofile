@@ -124,7 +124,7 @@ header {
 }
 
 .somehow {
-    border: solid blue;
+    
     margin: 10px;
 }
 
@@ -685,7 +685,7 @@ footer h5 {
         overflow: hidden;
     }
     header {
-        border: dashed red;
+        
         background-size: 100% 100vh;
         overflow: hidden;
     }
