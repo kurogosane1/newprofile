@@ -411,7 +411,153 @@ footer h5 {
     padding: 0;
 }
 
+/*968px width*/
+@media screen and (max-width: 968px){
+    html{
+        width: 968px;
+    }
+    header{
+        background-size: 100% 100%;
+    }
+    #main-intro h3{
+        margin: 10px 0px;
+    }
+    #container-2{
+        height: 100vh;
+    }
+    .thumbnail img {
+        height: 200px;
+        width: 300px;
+    }
+    .thumbnail{
+        position: relative;
+        height: 300px;
+        width: 250px;
 
+    }
+    .caption h2{
+        font-size: 130%;
+        position: absolute;
+        text-align: center;
+    }
+    #web-h2{
+
+        top: -100px;
+    }
+    #web-side >div h2{
+        margin: 19px 40px 10px 40px;
+    }
+
+    #app-h2 {
+        position: absolute;
+        top: 4px;
+    }
+    #web-side{
+        top:-40px;
+        left: 100px;
+    }
+    #front-end-side {
+        left: 200px;
+        top: -40px;
+    }
+    #back-end-side {
+        top: 258px;
+        right: 276px;
+    }
+    #app-end-side {
+        right: 175px;
+        top: 260px;
+    }
+    #app-end-side h2{
+        margin: 15px 10px 10px 25px;
+    }
+    #container-3{
+
+        height: 100vh;
+
+    }
+    #container-4{
+        height: 1650px;
+        position: relative;
+    }
+    #about-bio {
+        font-size: 100%;
+        position: relative;
+    }
+    #portfolio{
+        position: relative;
+        top: -40px;
+
+    }
+    #portfolio-section {
+        position: relative;
+        padding-left: 0px;
+
+        bottom: 100px;
+        padding-left: 100px;
+        height: 1500px;
+
+    }
+    .bio-port{
+
+        height: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .bio-port li {
+
+        margin-bottom: 100px;
+        height: 220px;
+        width: auto;
+        margin: 10px auto 10px 30px;
+    }
+    .bio-port >li >a{
+
+        margin: auto 100px;
+
+    }
+    .imageport {
+        width: 250px;
+        height:200px;
+        margin: 10px;
+    }
+    #aftercircle{
+        bottom: 160px
+    }
+    #submitbtn {
+        position: relative;
+        right: 160px;
+        margin-top: 50px;
+        width: 200px;
+        height: 90px;
+        font-size: 250%;
+        border: none;
+        border-radius: 20px;
+    }
+    #message {
+        margin-left: 50px;
+        height: 119px;
+        width: 320px;
+    }
+    #message-label {
+
+        margin-left: 50px;
+
+
+    }
+    .fa-github{
+        position: absolute;
+        right: 30px;
+        top: 2px
+
+    }
+    .fa-linkedin{
+       position: absolute;
+        right: 170px;
+}
+
+
+}
 /*max width screen*/
 
 @media screen and (max-width: 640px) {
@@ -427,9 +573,7 @@ footer h5 {
     #container-2 {
         height: 960px;
     }
-    #somehow {
-        border: solid red;
-    }
+
     .thumbnail {
         padding: 10px;
         height: 300px;
